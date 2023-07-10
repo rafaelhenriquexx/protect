@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #2C2B3D;
+}
+img{
+  max-width: 100%;
+}
+.container{
+ max-width: 1000px;
+ border: 1px solid;
+ margin: auto;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  display: flex;
+  gap: 64px;
+}
