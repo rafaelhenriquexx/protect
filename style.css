@@ -10,15 +10,46 @@ img{
   max-width: 100%;
 }
 .container{
- max-width: 1000px;
+ max-width: 1200px;
  border: 1px solid;
  margin: auto;
 }
 .nav{
-  display: flex;
-  justify-content: space-between;
+ display: flex;
+ justify-content: space-between;
+ margin: 70px 0 106px;
+ border: 1px solid white;
 }
 ul{
+ display: flex;
+ gap: 64px;
+ list-style: none;
+ color: #FFF;
+ font-family: JetBrains Mono;
+ font-size: 14px;
+ line-height: 28px;
+}
+main{
   display: flex;
-  gap: 64px;
+  gap: 70px;
+}
+.tittle-description h1{
+ color: #FFF;
+ font-family: JetBrains Mono;
+ font-size: 36px;
+ line-height: 40px;
+}
+.tittle-description p{
+ color: #C2C2C2;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 28px;
+ margin: 60px 0 165px;
+}
+.image-principal{
+  width: 401px;
+  height: 283px;
 }
